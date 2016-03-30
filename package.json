@@ -1,0 +1,25 @@
+{
+  "name": "mangle-my-js",
+  "version": "0.0.1",
+  "description": "A mangler that isn't even baked yet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanKingston/mangle-my-js.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 5.5.0"
+  },
+  "bin": "index.js",
+  "author": "Jonathan Kingston",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "escodegen": "^1.8.0",
+    "esmangle": "github:estools/esmangle#90bf70752292064aecd33160a5c9cb0308038079",
+    "esprima": "^2.7.2",
+    "esshorten": "github:estools/esshorten#8afbed5ed52a7fb809f89ae3d4169139af1c9b64"
+  }
+}
